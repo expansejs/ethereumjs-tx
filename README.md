@@ -1,20 +1,18 @@
 # SYNOPSIS 
-[![NPM Package](https://img.shields.io/npm/v/ethereumjs-tx.svg?style=flat-square)](https://www.npmjs.org/package/ethereumjs-tx)
-[![Build Status](https://img.shields.io/travis/ethereumjs/ethereumjs-tx.svg?branch=master&style=flat-square)](https://travis-ci.org/ethereumjs/ethereumjs-tx)
-[![Coverage Status](https://img.shields.io/coveralls/ethereumjs/ethereumjs-tx.svg?style=flat-square)](https://coveralls.io/r/ethereumjs/ethereumjs-tx)
-[![Gitter](https://img.shields.io/gitter/room/ethereum/ethereumjs-lib.svg?style=flat-square)](https://gitter.im/ethereum/ethereumjs-lib) or #ethereumjs on freenode  
+[![NPM Package](https://img.shields.io/npm/v/expansejs-tx.svg?style=flat-square)](https://www.npmjs.org/package/expansejs-tx)
+[![Build Status](https://img.shields.io/travis/expansejs/expansejs-tx.svg?branch=master&style=flat-square)](https://travis-ci.org/expansejs/expansejs-tx)
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)  
 
 # INSTALL
-`npm install ethereumjs-tx`
+`npm install expansejs-tx`
 
 # USAGE
 
-  - [example](https://github.com/ethereumjs/ethereumjs-tx/blob/master/examples/transactions.js)
+  - [example](https://github.com/expansejs/expansejs-tx/blob/master/examples/transactions.js)
 
 ```javascript
-const EthereumTx = require('ethereumjs-tx')
+const EthereumTx = require('expansejs-tx')
 const privateKey = Buffer.from('e331b6d69882b4cb4ea581d88e0b604039a3de5967688d3dcffdd2270c0fd109', 'hex')
 
 const txParams = {
@@ -37,7 +35,7 @@ const serializedTx = tx.serialize()
 
 
 # BROWSER  
-For a browser build please see https://github.com/ethereumjs/browser-builds.
+For a browser build please see https://github.com/expansejs/browser-builds.
 
 # API
 [./docs/](./docs/index.md)

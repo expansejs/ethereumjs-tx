@@ -1,6 +1,6 @@
 'use strict'
-const ethUtil = require('ethereumjs-util')
-const fees = require('ethereum-common/params.json')
+const ethUtil = require('expansejs-util')
+const fees = require('expanse-common/params.json')
 const BN = ethUtil.BN
 
 // secp256k1n/2
