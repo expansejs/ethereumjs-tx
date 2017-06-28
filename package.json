@@ -33,8 +33,8 @@
   "author": "mjbecze <mb@ethdev.com>",
   "license": "MPL-2.0",
   "dependencies": {
-    "ethereum-common": "^0.0.18",
-    "ethereumjs-util": "^5.0.0"
+    "expanse-common": "^0.0.18",
+    "expansejs-util": "^5.0.0"
   },
   "devDependencies": {
     "async": "^2.0.0",
@@ -60,12 +60,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ethereumjs/ethereumjs-tx.git"
+    "url": "https://github.com/expansejs/expansejs-tx.git"
   },
   "bugs": {
-    "url": "https://github.com/ethereumjs/ethereumjs-tx/issues"
+    "url": "https://github.com/expansejs/expansejs-tx/issues"
   },
-  "homepage": "https://github.com/ethereumjs/ethereumjs-tx",
+  "homepage": "https://github.com/expansejs/expansejs-tx",
   "standard": {
     "ignore": [
       "es5/**",
