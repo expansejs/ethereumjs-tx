@@ -2,7 +2,7 @@ const Tx = require('../index.js')
 const tape = require('tape')
 const ethUtil = require('expansejs-util')
 const argv = require('minimist')(process.argv.slice(2))
-const testing = require('expansejs-testing')
+const testing = require('ethereumjs-testing')
 const common = require('expanse-common/params.json')
 
 var txTests = testing.getTests('transaction', argv)
